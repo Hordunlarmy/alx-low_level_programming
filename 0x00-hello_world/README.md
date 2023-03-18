@@ -16,14 +16,8 @@
 * [The C Programming Language (2nd Edition) by Brian W(K&R)](https://drive.google.com/file/d/1pbUkVUr0bKd1QU7xtEdo_NdtyfRdvr9n/view?usp=drivesdk)
 * [Head First C - David Griffiths & Dawn Griffiths (2012)](https://drive.google.com/file/d/1pbQoTO8Xy745IAeekWjZm7bpaz8Dqd7Y/view?usp=drivesdk)
 
-*man or help:*
 
-* gcc
-* printf (3)
-* puts
-* putchar
-
-#f03c15 **SET UP BETTY LINTER**
+**SET UP BETTY LINTER**
 
 To run the Betty linter just with command betty <filename>:
 
