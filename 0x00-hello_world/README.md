@@ -23,7 +23,8 @@
 * puts
 * putchar
 
-**SET UP BETTY LINTER**
+#f03c15 **SET UP BETTY LINTER**
+
 To run the Betty linter just with command betty <filename>:
 
 * Go to the [Betty](https://github.com/holbertonschool/Betty) repository
