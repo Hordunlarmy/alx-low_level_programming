@@ -13,7 +13,7 @@ int main(void)
 
 	while (i <= 98)
 	{
-		for (j = i + 1; j <= 98; j++)
+		for (j = i + 1; j <= 99; j++)
 		{
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
