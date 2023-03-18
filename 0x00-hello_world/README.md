@@ -1,4 +1,4 @@
-**RESOURCES**
+## RESOURCES
 
 * [Everything you need to know to start with C.pdf](https://drive.google.com/file/d/1pa0nfo6ebh7bP6qyRVMIJd1mT-DuhPvi/view?usp=drivesdk)
 * [Dennis Ritchie](https://en.m.wikipedia.org/wiki/Dennis_Ritchie)
@@ -17,7 +17,7 @@
 * [Head First C - David Griffiths & Dawn Griffiths (2012)](https://drive.google.com/file/d/1pbQoTO8Xy745IAeekWjZm7bpaz8Dqd7Y/view?usp=drivesdk)
 
 
-**SET UP BETTY LINTER**
+## SET UP BETTY LINTER
 
 To run the Betty linter just with command betty <filename>:
 
@@ -53,7 +53,7 @@ done
 
 You can now type betty <filename> to run the Betty linter!
 
-**TASKS**
+##TASKS
 
 * [Available On Request](https://drive.google.com/drive/folders/1p1You5htuiF2dKX-UhNSkC8R48f01RnQ)
 
