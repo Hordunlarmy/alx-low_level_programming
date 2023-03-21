@@ -1,6 +1,6 @@
-/* A function that prints the alphabet, in lowercase, followed by a new line.*/
-void print_alphabet(void);
+#include "main.h"
 
+/* A function that prints the alphabet, in lowercase, followed by a new line.*/
 void print_alphabet(void)
 {
 	char lowCase;
