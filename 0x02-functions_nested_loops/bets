@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# set up alias as bets
+sed -i '3 r bettystyle' $1
