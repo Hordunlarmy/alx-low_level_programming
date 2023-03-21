@@ -3,15 +3,14 @@
 
 /**
  * _islower - checks for lowercase characters
- *
- * Return: parameter or member 'c'
- * _islower
+ * @c: The character to be checked
+ * Return: 1 if c is lowercase, 0 otherwise
  */
 int _islower(int c)
 {
 	c = _putchar('a');
 
-	if (c <= (_putchar('z')))
+	if (c <= (_putchar('z')) && c >= (_putchar('a')))
 	{
 		return (1);
 	}
