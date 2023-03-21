@@ -1,6 +1,10 @@
 #include "main.h"
 
-/* A function that prints the alphabet, in lowercase, followed by a new line.*/
+/**
+ * main - prints the alphabet, in lowercase, followed by a new line.
+ *
+ * Return: Always 0 (Success)
+ */
 void print_alphabet(void)
 {
 	char lowCase;
@@ -8,6 +12,6 @@ void print_alphabet(void)
 	for (lowCase = 'a'; lowCase <= 'z'; lowCase++)
 	{
 		_putchar(lowCase);
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
