@@ -1,5 +1,5 @@
 /* Declarations/Prototypes For all 0x02. C - Functions */
 
-char _putchar = 'a';
+int _putchar(char lowCase);
 void print_alphabet(void);
 
