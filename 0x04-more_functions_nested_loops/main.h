@@ -1,6 +1,6 @@
 /* Declarations/Prototypes For all 0x02. C - Functions */
 
-int _putchar(char lowCase);
+int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
