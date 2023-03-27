@@ -9,10 +9,10 @@
 int _strlen(char *s)
 {
 	/* char *s = "My first strlen!"; */
-	int i, lent;
+	int lent;
 
 	lent = 0;
-	for (i = 0; i <= s[lent]; i++)
+	while (s[lent])
 		lent++;
 	return (lent);
 }
