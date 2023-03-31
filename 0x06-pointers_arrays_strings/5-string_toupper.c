@@ -1,14 +1,13 @@
 #include "main.h"
 
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
-	ptr = NULL;
 	int i;
 
-	for (i = 0; *(ptr + i) != '\0'; i++)
+	for (i = 0; *(str + i) != '\0'; i++)
 
-		if (*(ptr + i) >= 'a' && *(ptr +i) <= 'z')
-			*(ptr + i) = *(ptr +i) - 32;
-	return (ptr);
+		if (*(str + i) >= 'a' && *(str +i) <= 'z')
+			*(str + i) -= 32;
+	return (str);
 }
