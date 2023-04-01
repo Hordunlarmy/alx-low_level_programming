@@ -1,4 +1,4 @@
-vi ## RESOURCES
+## RESOURCES
 
 * [Nested while loops](https://youtu.be/Z3iGeQ1gIss)
 * [C - Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
