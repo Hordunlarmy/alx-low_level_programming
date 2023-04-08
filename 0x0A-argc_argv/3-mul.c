@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	{
 		for (count = 1; count < argc; count++)
 		{
-			sum = sum * atoi(argv[count]);
+			sum *= atoi(argv[count]);
 		}
 		printf("%d\n", sum);
 	}
