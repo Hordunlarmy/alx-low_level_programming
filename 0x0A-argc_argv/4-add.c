@@ -13,8 +13,6 @@ int main(int argc, char *argv[])
 	int sum;
 	int letter;
 
-	if (argc > 0)
-	{
 	for (count = 1; count < argc; count++)
 	{
 		for (letter = 0; argv[count][letter]; letter++)
@@ -29,11 +27,6 @@ int main(int argc, char *argv[])
 		}
 	}
 	printf("%d\n", sum);
-	}
-	else
-	{
-		printf("0\n");
-	}
 
 	return (0);
 }
