@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 
+/**
+ * main - Entry point
+ * @argc: arugument count
+ * @argv: argument array
+ * Return: its name, followed by a new line.
+ */
 int main(int argc, char *argv[])
 {
 	int count;
