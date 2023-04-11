@@ -28,4 +28,5 @@ char *_strdup(char *str)
 		return (NULL);
 
 	return (p);
+	free(p);
 }
