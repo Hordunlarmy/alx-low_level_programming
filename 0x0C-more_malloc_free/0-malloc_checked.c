@@ -3,9 +3,9 @@
 #include "stdlib.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * *malloc_checked - Entry point
+ * @b: memory variable
+ * Return:  allocates memory using malloc.
  */
 void *malloc_checked(unsigned int b)
 {
