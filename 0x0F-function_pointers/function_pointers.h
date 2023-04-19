@@ -1,4 +1,8 @@
 /* all function prototypes for FUNCTION POINTERS TASK declared here*/
 
+#ifndef FUNCTION_H
+#define FUNCTION_H
+
 void print_name(char *name, void (*f)(char *));
 
+#endif
