@@ -8,22 +8,20 @@ hello db "Hello, Holberton", 0
 fmt db "%s\n", 0
 
 section .text
-global main
-extern printf
+global _start
 
-main:
-push rbp
-mov rbp, rsp
+_start:
+; set up stack frame
+xor rbp, rbp
 
-; call printf function
+; call printf
 mov rdi, fmt
 mov rsi, hello
-xor eax, eax
+xor rax, rax
 call printf
 
-; return
-mov rsp, rbp
-pop rbp
-xor eax, eax
-ret
+; exit program
+xor rdi, rdi
+mov rax, 60
+syscall
 
