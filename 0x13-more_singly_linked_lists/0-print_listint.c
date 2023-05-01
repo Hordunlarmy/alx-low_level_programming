@@ -7,16 +7,16 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	const listint_t *ptr = h;
 	size_t r_value = 0;
 
-	if (ptr == NULL)
+	if (h == NULL)
 		return (0);
 
-	while (ptr != NULL)
+	while (h != NULL)
 	{
-		r_value += printf("%d\n", h->n);
-		ptr = h->next;
+		printf("%d\n", h->n);
+		h = h->next;
+		r_value++;
 	}
 
 	return (r_value);
