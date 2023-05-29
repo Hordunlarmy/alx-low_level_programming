@@ -1,6 +1,0 @@
-[submodule "simple_shell"]
-	path = simple_shell
-	url = https://Hordunlarmy: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@github.com/Hordunlarmy/simple_shell.git
-[submodule "printf"]
-	path = printf
-	url = https://Hordunlarmy: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@github.com/Hordunlarmy/printf.git
