@@ -1,0 +1,16 @@
+# A makefile that builds an executable "school"
+
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+RM = rm -f
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+clean:
+	$(RM) *~ *.swo *.swp $(NAME)
+oclean:
+	$(RM) $(OBJ)
+fclean:
+	$(RM) *~ *.swo *.swp $(NAME) $(OBJ)
+re: oclean all
